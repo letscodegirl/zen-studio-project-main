@@ -4,13 +4,13 @@
     Baskerville - regular, body text
     Lato - light 300, regular 400, bold 700, specific elements & links
 
--colors: 
+-colors:
 light beige #F8F6F4
 featured #e8827f
 
--maps: 
+-maps:
 
-/* To do list 
+/* To do list
 
 -change the bg images
 -typography styles
@@ -71,18 +71,18 @@ a {
 
 }
 
-h1:last-child, 
-h2:last-child, 
-h3:last-child, 
-h4:last-child, 
-h5:last-child, 
-h6:last-child, 
+h1:last-child,
+h2:last-child,
+h3:last-child,
+h4:last-child,
+h5:last-child,
+h6:last-child,
 p:last-child {margin-bottom: 0;}
 
 
 .text-lg  {font-size: 3.5rem;}
 .text-xl  {font-size: 4.5rem;}
-.text-xxl {font-size: 8.5rem;}
+.text-xxl {font-size: 10rem;}
 .text-featured {color: #e8827f;}
 .text-lato {
     font-family: 'Lato', sans-serif;
@@ -138,16 +138,16 @@ footer p {
 
 .bg-image {
     background-size: cover;
-    background-position: center; 
+    background-position: center;
     background-image: url('/images/zen-studio-1.jpg');
 }
 .bg-stone {background-image: url('/images/stone.png');}
-.bg-leaves { 
+.bg-leaves {
     background-image: url('/images/zen-studio-1.jpg');
     background-position: 50% 30%;
 }
 .bg-venue {background-image: url('/images/zen-studio-3.jpg');}
-.bg-map {background-image: url('/images/light-colored-map.png');} 
+.bg-map {background-image: url('/images/light-colored-map.png');}
 /* .bg-girl {background-image: url('/images/zen-studio-2.jpg');} */
 
 .shape-teardrop {
@@ -158,7 +158,7 @@ footer p {
     border-top-left-radius: 20rem;
     border-top-right-radius: 20rem;
 }
-/* Gridlex Media Queries 
+/* Gridlex Media Queries
   @media (max-width: 36em)  Max 576px 	_xs-*
   @media (max-width: 48em)  Max 768px 	_sm-*
   @media (max-width: 64em)  Max 1024px 	_md-*
